@@ -4,6 +4,7 @@ export default defineType({
   name: 'post',
   title: 'Post',
   type: 'document',
+  //key: 'author.slug.current',
   fields: [
     defineField({
       name: 'title',
@@ -70,8 +71,11 @@ export default defineType({
       media: 'mainImage',
     },
     prepare(selection) {
-      const { author } = selection
-      return { ...selection, subtitle: author && `by ${author}` }
+      const { title, author, media } = selection
+      return { ...selection, subtitle: author && `by ${author}`,
+      media: media,
+      key: title }
+
     },
   },
 })

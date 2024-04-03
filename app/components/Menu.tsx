@@ -9,15 +9,15 @@ const menuItems = [
     name: "Heim",
   },
   {
-    pathname: "category/uppskriftir",
+    pathname: "/category/uppskriftir",
     name: "Uppskriftir",
   },
   {
-    pathname: "category/fyndid",
+    pathname: "/category/fyndid",
     name: "Fyndið",
   },
   {
-    pathname: "category/um",
+    pathname: "/category/um",
     name: "Um",
   },
 ]

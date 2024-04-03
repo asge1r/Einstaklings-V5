@@ -9,7 +9,7 @@ export const postsQuery = groq`*[_type == "post"] {
   "imageURL": mainImage.asset->url,
   "authorName": author->name,
 }`;
-export const categoryQuery = groq`*[_type == "post" && $slug in category.current] {
+export const categoryQuery = groq`*[_type == "post" && $slug in categories[]->title] {
   _createdAt,
   title,
   slug,
