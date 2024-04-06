@@ -7,15 +7,20 @@ const Posts = ({ posts = [] }: { posts: SanityDocument[] }) => {
     return new Date(date).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })
   }
 
+  // Sort posts based on _createdAt field in descending order
+  const sortedPosts = [...posts].sort((a, b) => new Date(b._createdAt).getTime() - new Date(a._createdAt).getTime());
+
   return (
     <div className="bg-white text-black dark:bg-black dark:text-white py-10 mx-auto grid grid-cols-1">
       <p className="text-gray-500">Nýjustu færslur:</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-        {posts.map((post) =>
+        {sortedPosts.map((post) =>
+        {console.log("post: ", post.slug)
+        return (
           <Link
             className="p-4 flex flex-row items-center justify-between hover:opacity-90"
             key={post._id}
-            href={post.slug.current}
+            href={`/${post.slug.current}`}
           >
             <div>
               <h2 className="font-medium text-xl">{post.title}</h2>
@@ -32,6 +37,7 @@ const Posts = ({ posts = [] }: { posts: SanityDocument[] }) => {
               />
             }
           </Link>
+        )}
         )}
       </div>
     </div>

@@ -9,6 +9,8 @@ export const postsQuery = groq`*[_type == "post"] {
   "imageURL": mainImage.asset->url,
   "authorName": author->name,
 }`;
+
+// Get posts by category
 export const categoryQuery = groq`*[_type == "post" && $slug in categories[]->title] {
   _createdAt,
   title,
