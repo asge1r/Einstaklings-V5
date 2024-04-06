@@ -1,5 +1,5 @@
 # Inngangur
-Bloggsíðan [--](https://einstaklings-v5.onrender.com/) sýnir hvað ég hef meðal annars lært í áfanganum Vefforritun 2 í HÍ.
+Bloggsíðan [Ásgeirs Bloggið](https://einstaklings-v5.onrender.com/) sýnir hvað ég hef meðal annars lært í áfanganum Vefforritun 2 í HÍ.
 Hún samanstendur af vangaveltum mínum og sögum um allt og ekkert.
 # Skilyrði uppfyllt
 Ég valdi mér skilyrðin:
