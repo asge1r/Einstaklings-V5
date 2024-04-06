@@ -8,6 +8,7 @@ Hún samanstendur af vangaveltum mínum og sögum um allt og ekkert.
 - UML rit
 ## Notast var við "Headless CMS" og [Sanity](https://Sanity.io/) 
 fyrir fram- og bakendann enda finnst mér það þægilegt umhverfi og notendavænt viðmót.
+Framendinn fól í sér að gera síðuna responsive og svo bætti ég líka við vali um *dark/light mode* enda er ég mjög hrifin af dökkum vefjum.
 ## Notast var við *classdiagram-ts* 
 við gerð á UML-ritinu en ég hef aldrei áður gert slíkt rit í vefforritun og þótti heldur skrýtið.
 <img width="1202" alt="Screenshot 2024-04-06 at 15 44 36" src="https://github.com/asge1r/Einstaklings-V5/assets/119693998/478d6e07-5fff-45bd-94b7-84142dbfb930">
