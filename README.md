@@ -6,7 +6,7 @@ Hún samanstendur af vangaveltum mínum og sögum um allt og ekkert.
 - framendi
 - bakendi
 - UML rit
-## Notast var við "Headless CMS" og [--](https://Sanity.io/) 
+## Notast var við "Headless CMS" og [Sanity](https://Sanity.io/) 
 fyrir fram- og bakendann enda finnst mér það þægilegt umhverfi og notendavænt viðmót.
 ## Notast var við *classdiagram-ts* 
 við gerð á UML-ritinu en ég hef aldrei áður gert slíkt rit í vefforritun og þótti heldur skrýtið.
