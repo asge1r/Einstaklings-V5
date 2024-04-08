@@ -9,7 +9,7 @@ import Image from "next/image";
 const builder = imageUrlBuilder(client);
 
 const Post = ({ post }: { post: SanityDocument }) => {
-  console.log("póstar í post: ", post)
+
   return (
     
     <main className="bg-white text-black dark:bg-black dark:text-white max-w-7xl container mx-auto prose prose-xl px-5 py-16 dark:prose-invert ">

@@ -4,7 +4,7 @@ export default defineType({
   name: 'post',
   title: 'Post',
   type: 'document',
-  //key: 'author.slug.current',
+
   fields: [
     defineField({
       name: 'title',
@@ -72,7 +72,7 @@ export default defineType({
     },
     prepare(selection) {
       const { title, author, media } = selection
-      return { ...selection, subtitle: author && `by ${author}`,
+      return { ...selection, subtitle: author && `eftir ${author}`,
       media: media,
       key: title }
 
